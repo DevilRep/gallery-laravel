@@ -1,5 +1,8 @@
 <?php
 
+use Faker\Generator as Faker;
+use Illuminate\Http\File;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +14,6 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (Faker $faker) {
     return view('welcome');
 });
