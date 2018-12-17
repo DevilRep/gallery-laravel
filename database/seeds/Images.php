@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Image;
+use App\Models\Image;
 
 class Images extends Seeder
 {
