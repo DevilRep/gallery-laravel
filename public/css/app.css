@@ -47,3 +47,37 @@ nav a {
 .page.test .container {
     height: 1000px;
 }
+
+footer {
+    background: #f6f8fa;
+    padding: 2.3em 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    font-size: 25px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social li {
+    display: inline;
+}
+
+.social a {
+    color: #DD9933;
+    padding: 20px;
+}
+
+footer > .wrapper {
+    width: 300px;
+    text-align: center;
+    color: #DD9933;
+}
